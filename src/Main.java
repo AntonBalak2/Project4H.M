@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Random random = new Random();
         int x = random.nextInt(11);
-//        double val = 20 + Math.random()*40; //
+
         System.out.println(x);
         Scanner in = new Scanner(System.in);
         int userNumber = in.nextInt();
