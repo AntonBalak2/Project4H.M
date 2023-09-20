@@ -22,6 +22,15 @@ public class Part1 {
 //        }
 
 
+//        String iter = "Anton";
+//        for(int i = 0; i < iter.length(); i++){
+//        System.out.println(iter.charAt(i));
+//        }
+
+
+
+
+
         }
     }
 
