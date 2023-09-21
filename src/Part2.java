@@ -13,20 +13,44 @@ public class Part2 {
 //        do {
 //            System.out.println("Do you want to continue Y/N? ");
 //            String i1 = in.nextLine();
-//        } while (!i1.equals());
+//        } while (!i1.equals(""));
 
 
+        char con = 'Y';
+        String rightAns = "Yes";
+        char rightAnswer = rightAns.charAt(0);
+//        String conUser = in.nextLine();
+        do {
+            System.out.println("What is your name? ");
+            String name = in.nextLine();
+            System.out.println("Hello" + name);
+            System.out.println("Do you want to continue?");
+
+            String conUser = in.nextLine();
+
+        } while (rightAnswer ==  ConUser);
+
+//
 //        while (true){
+//            System.out.println("Hello What is your name? ");
+//            String name = in.nextLine();
+//            System.out.println("Name " + name);
 //            System.out.println("Do you want to continue Y/N? ");
 //            String i1 = in.nextLine();
+//            System.out.println("How old are you?");
+//            int age = in.nextInt();
+//            in.nextLine();
+//            System.out.println("Age" + age);
+//
+//
 //            if (i1.equals(n)){
 //                break;
 //            }
 //            else {
 //
 //            }
-
-             //  if (i1.equals(n || nLittle)){ why does it not work?
+//
+//               if (i1.equals(n || nLittle)){ why does it not work?
             }
         }
 
