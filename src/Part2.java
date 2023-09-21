@@ -4,31 +4,57 @@ public class Part2 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+
 //        String a1 = in.nextLine();
 //        System.out.println("w" + a1);
-        String n = "N";
+        char n = 'N';
         String nLittle = "n";
         String y = "Y";
+
+        boolean Input = true;
+        String userInp = y;
+        while (userInp.equals(y)){
+            System.out.println("What is your name");
+            String name = in.nextLine();
+            System.out.println("Hello " + name);
+            System.out.println("Do you want to continue");
+            //in.nextLine();
+            userInp = in.nextLine();
+
+
+        }
 
 //        do {
 //            System.out.println("Do you want to continue Y/N? ");
 //            String i1 = in.nextLine();
 //        } while (!i1.equals(""));
 
+//        String userInput = in.nextLine();
+//        while (userInput !=  n){
+//            System.out.println("Do you want to con.");
+//            String user = in.nextLine();
+//            System.out.println(user);
+        }
+//
+//        while (true) {
+//            System.out.println();
+//        }
 
-        char con = 'Y';
-        String rightAns = "Yes";
-        char rightAnswer = rightAns.charAt(0);
-//        String conUser = in.nextLine();
-        do {
-            System.out.println("What is your name? ");
-            String name = in.nextLine();
-            System.out.println("Hello" + name);
-            System.out.println("Do you want to continue?");
 
-            String conUser = in.nextLine();
-
-        } while (rightAnswer ==  ConUser);
+//        char con = 'Y';
+//        String rightAns = "Yes";
+//        char rightAnswer = rightAns.charAt(0);
+////        String conUser = in.nextLine();
+//        do {
+//            System.out.println("What is your name? ");
+//            String name = in.nextLine();
+//            System.out.println("Hello" + name);
+//            System.out.println("Do you want to continue?");
+//
+//            String conUser = in.nextLine();
+//
+//        } while (rightAnswer ==  ConUser);
 
 //
 //        while (true){
@@ -52,7 +78,7 @@ public class Part2 {
 //
 //               if (i1.equals(n || nLittle)){ why does it not work?
             }
-        }
+
 
 //        while (true){
 //
