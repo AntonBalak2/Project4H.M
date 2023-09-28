@@ -6,13 +6,14 @@ public class Part1 {
 //        int i = 1;
 //        while (i <= 5){
 //            System.out.println("i = " + i);
-//            i++;}
+//            i++;
+//        }
 
 //        int i = 1;
 //        do {
 //            System.out.println("i = " + i);
 //            i++;
-//        } while (i < 1);
+//        } while (i < 3);
 
 //        for (int i = 10; i >= 1; i--){
 //            System.out.print(" " + i);
